@@ -23,10 +23,13 @@
         </div>
         <div id="main-content">
             <h2>Contact</h2>
-            <form>
+            <form method="POST" action="contactform.php" >
                 <input type="text" name="first-name" class="name"placeholder="First Name">
                 <input type="text" name="last-name" class="name" placeholder="Last Name">
+                <br>
                 <input type="textarea" name="message" id="message" style="height: 200px" placeholder="Message">
+                <br>
+                <input type="submit" name="submit" id="submit">
             </form>
         </div>
     </div>
