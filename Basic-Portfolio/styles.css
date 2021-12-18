@@ -46,6 +46,29 @@ a:hover {
     color: teal;
 }
 
+#portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    margin: 2%;
+}
+
 footer {
     border-top: solid black 1px;
+}
+
+
+input [type=text], textarea {
+    width: 100%;
+    margin: 1%;
+    resize: vertical;
+}
+
+textarea {
+    height: 200px;
 }
